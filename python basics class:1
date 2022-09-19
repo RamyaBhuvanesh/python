@@ -1,0 +1,194 @@
+# python
+-----------------------------------------------------------------------------------------------------------------------------------------------
+# python is an interpreter language
+-------------------------------------------!---------------------------------------------------
+# interpreter                              !         # compiler
+-------------------------------------------!---------------------------------------------------
+    # language = python, php               !               # language = c, c++, java
+		  ruby                  							 !							# it run once gives error all in one
+		# for each and every line							 !
+		  it create a result if any            !               #solving error is littel complex
+			line got an error it stopes 				 !
+			right there if we solve the					 !
+			error then it runs 									 !
+-------------------------------------------!---------------------------------------------------
+# Topics:
+
+
+---------------------------------------------------------------------------------------------
+# simple program:
+# print hello world!
+
+print("hello world!")
+---------------------------------------------------------------------------------------------
+# remember anything comes with open and close bracket() then that is called function.
+# print() ---> function
+# now we are gonna see two new word:(,----> means space)
+
+    # 1.end = " " -----------> end
+		# 2.sep = "@" -----------> separator
+		
+# end:
+
+print("hello", "hii", 'welcome',end=" ")# the end contain space 
+print('today is sunday')
+
+o/p: hello hi welcome today is sunday
+
+# sep:
+
+print("hello", "hii", 'welcome',sep="@")
+
+o/p: hello@hii@welcome
+
+---------------------------------------------------------------------------------------------------------
+
+# comments:
+    # used to explain your code,readable.
+		# way it has been used.
+		# 1. by using #  content (single line)
+		# 2. " content" or 'content'(single line)
+		# 3. """ content """ or ''' content '''
+		
+--------------------------------------------------------------------------------------------------------------
+
+# numbers:
+# There are 3 types:
+  # 1. integer -------->   int     = whole number                    ------> (+ve,-ve) eg:  +10  to   -10
+	# 2. float   -------->   float   = with decimal point              ------> (+ve,-ve) eg:  +10.9  to   -10.7
+	# 3. complex -------->   complex = have real and imaginary part    ------> (real+imaginary) eg: 10+5j
+	
+----------------------------------------------------------------------------------------------------------------
+		
+# how to check athe data-type:
+  # where type()-----------> function
+	
+print(type(10))
+o/p: <class: 'int'> # so the type of the data-type is int
+
+---------------------------------------------------------------------------------------------
+
+# now lets talk about class:
+# class: A class describes the contents of the objects that belong to it, A class is like a blueprint
+     # 1. classified ---------------------------------------> eg: electronics
+# object: An Object is an instance of a Class.it has
+     # object ----------------------------------------------> eg: laptop
+     # 1. name ---------------------------------------------> eg: hp,dell,lenavo etc...
+		 # 2. atteribute ---------------------------------------> eg: ram=16gb, ram=3gb etc...
+		 # 3. method -------------------------------------------> eg: battery,performance etc..
+#like-wise
+     # int-------------> class
+		 # 10 -------------> object
+		 
+----------------------------------------------------------------------------------------------------------------
+
+# scientific number are also called float:
+    # eg: 12e6 ------->12*10^6
+		# eg: 87e5  (in python this can be written as 87**5)
+	
+----------------------------------------------------------------------------------------------------------------
+# Type-conversion:
+# convert one number to another number such that:
+   # variable=convertion(value)
+	 c = float(10)  # 10 is the integer we are gonna convert it into float
+	 o/p: 10.0
+	 # like-wise we can convert int to float vice-versa ,int to complex ,float to complex but you cant convert complex into int or float.
+	 a = complex(10)
+	 o/p: 10+0j
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+	
+# numbers
+# round-off a number
+
+# round()---------------->  function
+
+print(round(10.74846829028)
+o/p: 10  ----------------> #this conversion is called float to int(type conversion)
+
+# round-off to two digit number
+print(round(10.74846829028 , 2) # you can define how many numbers you need to round-off
+o/p: 10.74
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+# Arithmetic operations:
+         # 1. add---------------------------->	+
+				 # 2. sub---------------------------->	-
+				 # 3. mul---------------------------->	*
+				 # 4. div---------------------------->	/  # returns the quotitent
+				 # 5. exponential-------------------->	**
+				 # 6. modulus------------------------>	%	 # returns the reminder
+				 # 7. floor division----------------->	// # ignores values after points
+				 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+# build-in math functions: 
+    			# 1.min()-----------------> # minimum value
+					# 2.max()-----------------> # maximum value
+					# 3.abs()-----------------> # positive value
+					# 4.pow()-----------------> # power or square etc
+					# 5.ceil(x)---------------> # Returns the smallest integer greater than or equal to x. eg: 10.4 ----> o/p = 11
+					# 6.floor(x)--------------> # Returns the largest integer less than or equal to x eg: 10.4 ---------> o/p = 10 
+					# 7.fmod(x, y)------------> # Returns the remainder when x is divided by y
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+				 
+# errors and expceptions:
+ 
+# error ------------------> stops completely
+# exceptions -------------> logical error
+
+# typers of error:
+        # 1. syntax error
+				# 2. zero-division error
+				# 3. indentation error
+				# 4. index error
+				# 5. module not found error
+		
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+# comparision operators:
+       # 1. equal  --------------------------> ==
+			 # 2. does not equal   ----------------> !=
+			 # 3. less-than or equal --------------> <=
+			 # 4. less-than  ----------------------> <=
+			 # 5. greater-than --------------------> >
+			 # 6. greater-than or equal -----------> >=
+			 
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
