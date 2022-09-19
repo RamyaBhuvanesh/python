@@ -22,7 +22,7 @@ print("hello world!")
 # print() ---> function
 # now we are gonna see two new word:(,----> means space)
 
-    # 1.end = " " -----------> end
+                # 1.end = " " -----------> end
 		# 2.sep = "@" -----------> separator
 		
 # end:
@@ -41,7 +41,7 @@ o/p: hello@hii@welcome
 ---------------------------------------------------------------------------------------------------------
 
 # comments:
-    # used to explain your code,readable.
+                # used to explain your code,readable.
 		# way it has been used.
 		# 1. by using #  content (single line)
 		# 2. " content" or 'content'(single line)
@@ -51,7 +51,7 @@ o/p: hello@hii@welcome
 
 # numbers:
 # There are 3 types:
-  # 1. integer -------->   int     = whole number                    ------> (+ve,-ve) eg:  +10  to   -10
+        # 1. integer -------->   int     = whole number                    ------> (+ve,-ve) eg:  +10  to   -10
 	# 2. float   -------->   float   = with decimal point              ------> (+ve,-ve) eg:  +10.9  to   -10.7
 	# 3. complex -------->   complex = have real and imaginary part    ------> (real+imaginary) eg: 10+5j
 	
@@ -70,23 +70,23 @@ o/p: <class: 'int'> # so the type of the data-type is int
      # 1. classified ---------------------------------------> eg: electronics
 # object: An Object is an instance of a Class.it has
      # object ----------------------------------------------> eg: laptop
-     # 1. name ---------------------------------------------> eg: hp,dell,lenavo etc...
+                 # 1. name ---------------------------------------------> eg: hp,dell,lenavo etc...
 		 # 2. atteribute ---------------------------------------> eg: ram=16gb, ram=3gb etc...
 		 # 3. method -------------------------------------------> eg: battery,performance etc..
 #like-wise
-     # int-------------> class
+                 # int-------------> class
 		 # 10 -------------> object
 		 
 ----------------------------------------------------------------------------------------------------------------
 
 # scientific number are also called float:
-    # eg: 12e6 ------->12*10^6
+                # eg: 12e6 ------->12*10^6
 		# eg: 87e5  (in python this can be written as 87**5)
 	
 ----------------------------------------------------------------------------------------------------------------
 # Type-conversion:
 # convert one number to another number such that:
-   # variable=convertion(value)
+         # variable=convertion(value)
 	 c = float(10)  # 10 is the integer we are gonna convert it into float
 	 o/p: 10.0
 	 # like-wise we can convert int to float vice-versa ,int to complex ,float to complex but you cant convert complex into int or float.
@@ -110,7 +110,7 @@ o/p: 10.74
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 # Arithmetic operations:
-         # 1. add---------------------------->	+
+                                 # 1. add---------------------------->	+
 				 # 2. sub---------------------------->	-
 				 # 3. mul---------------------------->	*
 				 # 4. div---------------------------->	/  # returns the quotitent
@@ -121,7 +121,7 @@ o/p: 10.74
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 # build-in math functions: 
-    			# 1.min()-----------------> # minimum value
+    		                	# 1.min()-----------------> # minimum value
 					# 2.max()-----------------> # maximum value
 					# 3.abs()-----------------> # positive value
 					# 4.pow()-----------------> # power or square etc
@@ -137,7 +137,7 @@ o/p: 10.74
 # exceptions -------------> logical error
 
 # typers of error:
-        # 1. syntax error
+                                # 1. syntax error
 				# 2. zero-division error
 				# 3. indentation error
 				# 4. index error
