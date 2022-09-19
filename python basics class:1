@@ -1,19 +1,16 @@
 # python
 -----------------------------------------------------------------------------------------------------------------------------------------------
 # python is an interpreter language
--------------------------------------------!---------------------------------------------------
-# interpreter                              !         # compiler
--------------------------------------------!---------------------------------------------------
-    # language = python, php               !               # language = c, c++, java
-		  ruby                  							 !							# it run once gives error all in one
-		# for each and every line							 !
-		  it create a result if any            !               #solving error is littel complex
-			line got an error it stopes 				 !
-			right there if we solve the					 !
-			error then it runs 									 !
--------------------------------------------!---------------------------------------------------
-# Topics:
 
+# interpreter                  # compiler
+
+# language = python, php        # language = c, c++, java
+ruby                  		# it run once gives error all in one
+# for each and every line							 
+it create a result if any       #solving error is littel complex
+line got an error it stopes 				 
+right there if we solve the					 
+error then it runs 									 
 
 ---------------------------------------------------------------------------------------------
 # simple program:
@@ -118,7 +115,7 @@ o/p: 10.74
 				 # 3. mul---------------------------->	*
 				 # 4. div---------------------------->	/  # returns the quotitent
 				 # 5. exponential-------------------->	**
-				 # 6. modulus------------------------>	%	 # returns the reminder
+				 # 6. modulus------------------------>	%  # returns the reminder
 				 # 7. floor division----------------->	// # ignores values after points
 				 
 -----------------------------------------------------------------------------------------------------------------------------------------------
@@ -149,7 +146,7 @@ o/p: 10.74
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 # comparision operators:
-       # 1. equal  --------------------------> ==
+                         # 1. equal  --------------------------> ==
 			 # 2. does not equal   ----------------> !=
 			 # 3. less-than or equal --------------> <=
 			 # 4. less-than  ----------------------> <=
